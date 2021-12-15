@@ -183,4 +183,7 @@ CUDA_VISIBLE_DEVICES=$GPU python main.py --data_root_dir $DATAROOT --which_split
  </details>
  
  ### 4. Self-Supervised Evaluation
- We evaluate our proposed method on self-supervised patch and slide evaluation. Please see the [evaluation code](https://github.com/707884/707884/tree/master/3-Self-Superised-Eval) and linked Google Drive in the supplement for data download.
+ We evaluate our proposed method on self-supervised patch and slide evaluation. Please see the [evaluation code](https://github.com/707884/707884/tree/master/3-Self-Superised-Eval) and Google Drive link in the supplement for data download.
+
+ ### 5. Additional Visualizations
+ See the Google Drive link in our supplement for additional, high-quality attention visualizations.
