@@ -108,15 +108,6 @@ TCGA_PRETRAINING_DIR/
       └── pretrain/
           └── vit256_s_dino.pth
           └── vit4k_xs_dino.pth
-
-  └──patch_256_pretraining/
-      ├── patch_1.png
-      ├── patch_2.png
-      └── ...
-  └──region_4096_pretraining/
-      ├── slide_1_1.pt
-      ├── slide_1_2.pt
-      └── ...
  ```
  </details>
  
