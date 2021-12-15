@@ -12,7 +12,7 @@ TCGA_ROOT_DIR/
         ├── ...
     └──tcga_blca/
         ├── ...
-    └──TCGA_brca/
+    └──tcga_brca/
         └── WSIs/
             ├── slide_1.svs
             ├── slide_2.svs
