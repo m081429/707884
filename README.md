@@ -176,5 +176,10 @@ CUDA_VISIBLE_DEVICES=$GPU python main.py --data_root_dir $DATAROOT --which_split
  ### 4. Self-Supervised Evaluation
  We evaluate our proposed method on self-supervised patch and slide evaluation. Please see the [evaluation code](https://github.com/707884/707884/tree/master/3-Self-Superised-Eval) and Google Drive link in the supplement for data download.
 
- ### 5. Additional Visualizations
- See the Google Drive link in our supplement for additional, high-quality attention visualizations.
+ ### 5. Google Drive README
+ Linked in the Supplement is a Google Drive containing the following large files and items:
+ - `4k_region.png`: The full resolution of the `[4096 × 4096]` region shown in Figure 3. 
+ - `4k_attention.png`: Hierarchical attention map corresponding to the factorized ViT-16 + ViT-256 attention maps. Note that due to the size of the full 4K image, 4K resolution maps are not made available for all visualizations. Each grid within this image corresponds to overlayed attention weights of `[16 × 16]` tokens. We encourage downloading this image and zooming into the overlayed attention weights yourself!
+ - `Additional_BRCA_Viz.jpg': Additional high-quality visualizations of exemplar hierarchical attention maps (each attention map scaled down to `[2048 × 2048]`).
+ - `Additional Visualizations/`: Folder containing all combinations of hierarchical attention maps (scaled down to `[1024 × 1024]`) of each `[4096 × 4096]` region across 3 WSIs.
+ - `Pre-Extracted Embeddings/`: Folder containing pre-extracted embeddings for the patch- and slide-level datasets as described in the Supplement.
